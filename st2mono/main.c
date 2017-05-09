@@ -120,7 +120,8 @@ int main(int argc, const char * argv[]) {
     }
     printf("Done.\n");
     
-    // TODO detected automatically which is the channel with higher peak. Analyse left and right channel and copy the channel with maximum RMS.
+    /* TODO - Detect automatically which is the channel with higher peak. Analyse left and right channel and copy the channel with maximum RMS. */
+    /* TODO - copy infile in a char to generate outfile name as infile+"_mono" */
     
     /* clean up resources */
 exit:
